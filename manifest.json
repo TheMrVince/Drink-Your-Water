@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "Drink Your Water!",
+    "description": "Drink your water reminder",
+    "version":"1.0",
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_title": "Drink Your Water!",
+        "default_popup": "popup.html"
+    },
+
+    "permissions":["activetab", "notifications"], 
+
+    "background":{
+        "scripts":["popup.js"]
+    }
+}
+

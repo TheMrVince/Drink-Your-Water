@@ -1,0 +1,51 @@
+.container{
+    position: relative;
+    top: -10px;
+    left: -5px;
+}
+
+.clock{
+     padding: 10px;
+     text-align: center;
+     border-radius: 10px;
+}
+
+.clock-time,
+.clock-ampm{
+    font-family: "Concert One", cursive;
+    font-size: 30px;
+    color: cadetblue;
+    position: relative;
+    top: -40px;
+    left: -5px;
+}
+
+.clock-time{
+    font-size: 48px;
+    position: relative;
+    top: -40px;
+    left: -5px;
+}
+
+.display-date {
+    text-align: center;
+    font-family: "Concert One", cursive;
+    margin-bottom: -15px;
+    font-size: 30px;
+    color:cadetblue;
+    position: relative;
+    top: -40px;
+    left: -5px;
+  }
+
+.waterunderline{
+    position: relative;
+    top: -40px;
+    left: -20px;
+}
+
+.verygoodwaterdrawing{
+    position: relative;
+    top: -60px;
+    left: -10px;
+}
